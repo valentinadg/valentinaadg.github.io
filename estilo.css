@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:ital,wght@0,400;1,500;1,600&display=swap');
+ *{
+    font-family: "Playfair Display";
+    margin: 0;
+    padding: 0;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ /*ESTE ES EL INICIO*/
+ .inicio{
+    background: linear-gradient(rgba(136, 21, 143, 0.3),rgba(186, 64, 180, 0.3)),
+    url("https://img.freepik.com/vector-gratis/gran-cascada-datos-flujos-codigo-binario-digital_107791-267.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+ }
+.inicio .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+.inicio .contenido-seccion header{
+    padding: 30px;
+
+}
+/*MENU LATERAL*/
+.inicio .contenido-seccion header nav{
+    position: fixed;
+    margin-left: 60px;
+    background-color: #f3e9f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    z-index: 99px;
+    display: none;
+}
+.inicio .contenido-seccion header nav a{
+    display: block;
+    color: #060007;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+/* ****** */
+.inicio .contenido-seccion header .logo{
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-family: "EB Garamond";
+    text-shadow: 0 0 35px #f3e9f4;
+}
+.inicio .contenido-seccion header .logo .color{
+    color: rgb(218, 43, 230);
+    font-family: "EB Garamond";
+}
+.inicio .contenido-seccion header .nav-bar{
+    position: fixed;
+    background-color:rgb(218, 43, 230) ;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    cursor:pointer;
+    transition: .3s;
+}
+.inicio .contenido-seccion header .nav-bar:hover{
+    box-shadow: 0 0 35px #f3e9f4;
+}
+.inicio .contenido-seccion .info{
+    padding-bottom: 130px;
+}
+.inicio .contenido-seccion .info h1{
+    font-size: 3rem;
+    letter-spacing: 5px;
+}
+.inicio .contenido-seccion .info h2{
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: -10px;
+    letter-spacing: 2px;
+}
+.inicio .contenido-seccion .info .redes{
+    margin: 20px 0;
+}
+.inicio .contenido-seccion .info .redes a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #000;
+    color: rgb(218, 43, 230);
+    border: 1px solid rgb(218, 43, 230));
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 5px;
+    transition: .3s;
+}
+.inicio .contenido-seccion .info .redes a:hover{
+    color: #f3e9f4;
+    background-color: rgb(218, 43, 230);
+    box-shadow: 0 0 20px #f3e9f4;
+}
+.inicio .contenido-seccion .foto{
+    position: relative;
+}
+.inicio .contenido-seccion .foto img{
+    max-width: 200px;
+    border: 5px solid rgb(218, 43, 230);
+    position: absolute;
+    left: 50%;
+    top: -100px;
+    transform: translateX(-50%);
+
+}
+
+.titulo-seccion{
+    font-family: "Playfair Display";
+    font-size: 1.5rem;
+}
+/*SECCION PERFIL PERSONAL*/
+.perfilprofesional{
+    background-color: #e6e6ee;
+    padding: 140px 0 100px 0;
+    text-align: center;
+}
+.perfilprofesional .contenido-section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.perfilprofesional .contenido-section .especial{
+    color: rgb(105, 4, 105);
+    font-weight: bold;
+    margin-top: 15px;
+}
+.perfilprofesional .contenido-section p{
+    max-width: 700px;
+    margin: auto;
+    color: #040404;
+}
+.perfilprofesional .contenido-section .fila{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+    list-style: none;
+}
+.perfilprofesional .contenido-section .fila .col{
+    width: 30px;
+}
+.perfilprofesional .contenido-section .fila .col{
+    color: rgb(131, 22, 139);
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    border: 2px solid rgb(131, 22, 139);
+    line-height: 25px;
+    border-radius: 50%;
+} 
+.perfilprofesional .contenido-section .fila .col{
+    display: block;
+    font-weight: bold;
+    margin: 8px 0;
+}
+/*SECCION HABILIDADES*/
+.habilidades{
+    padding: 80px 0 100px 0;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),
+    url(2do\ fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #f3e9f4;
+}
+.habilidades .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.habilidades .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.habilidades .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.habilidades .contenido-seccion .fila .col{
+    width: 47%;
+    text-align: left;
+}
+.habilidades .contenido-seccion .fila .col .cont-barra{
+    display: flex;
+    align-items: center;
+}
+.habilidades .contenido-seccion .barra{
+    display: flex;
+    border: 1px solid #680d7e;
+    padding: 2px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.habilidades .contenido-seccion .barra .e{
+    background-color: #1f1b1b;
+    width: 20px;
+    height: 30px;
+    margin-right: 2px;
+}
+/* SECCION CONTACTO */
+.contacto{
+    background-color: #202020;
+    padding: 140px 0 100px 0;
+    color: #e6e6e6;
+    text-align: center;
+}
+.contacto .contenido-seccion{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 10px;
+}
+.contacto .contenido-seccion h3{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.contacto .contenido-seccion .fila{
+    display: flex;
+    justify-content: space-around;
+}
+.contacto .contenido-seccion .fila .col{
+    margin-top: 50px;
+}
+.contacto .contenido-seccion .fila .col h2{
+    color: #7d1d95;
+}
+/* SECCION RESPONSIVE */
+@media screen and (max-width:800px){
+    .habilidades .contenido-seccion .fila{
+        display: block;
+    }
+    .habilidades .contenido-seccion .fila .col{
+        width: 100%;
+        text-align: center;
+    }
+    .habilidades .contenido-seccion .fila .col .cont-barra{
+        justify-content: center;
+    }
+    .sobremi .contenido-seccion .fila{
+        display: block;
+    }
+    .sobremi .contenido-seccion .fila .col{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
